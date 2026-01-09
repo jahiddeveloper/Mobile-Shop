@@ -1,7 +1,9 @@
+import { Suspense } from "react";
 import "./App.css";
 import AvailableMobile from "./Componenet/AvailableMobile/AvailableMobile";
 import Hero from "./Componenet/Hero/Hero";
 import Navbar from "./Componenet/Navbar/Navbar";
+import Login from "./Componenet/LoginForm/Login";
 
 let fetchMobile = fetch("/Mobile.json").then((res) => res.json());
 
@@ -10,7 +12,10 @@ function App() {
     <>
       <Navbar></Navbar>
       <Hero></Hero>
-      <AvailableMobile fetchMobile={fetchMobile}></AvailableMobile>
+      <Suspense fallback={<h3>Just a sec...</h3>}>
+        <AvailableMobile fetchMobile={fetchMobile}></AvailableMobile>
+      </Suspense>
+      <Login></Login>
     </>
   );
 }

@@ -18,7 +18,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="flex justify-end">
-        <p className="mt-6 text-white font-bold bg-[#fd795e] py-2 text-center w-75 rounded-xl">
+        <p className="mt-6 text-red-500 font-bold bg-white py-2 text-center w-75 rounded-xl">
           Cash & EMI Available
         </p>
       </div>
