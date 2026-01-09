@@ -122,7 +122,7 @@
     "os": "Android 13",
     "warranty": "1 Year Warranty",
     "availability": "In Stock",
-    "image": "https://i.ibb.co/VYhYGQ31/7.webp",
+    "image": "https://i.ibb.co/c56RNmK/7.webp",
     "description": "Budget-friendly phone with strong battery and gaming performance."
   },
   {
@@ -140,7 +140,7 @@
     "os": "Android 12",
     "warranty": "1 Year Warranty",
     "availability": "In Stock",
-    "image": "https://i.ibb.co/ZpxC0JbG/8.webp",
+    "image": "https://i.ibb.co/38fhjrP/8.webp",
     "description": "Entry-level smartphone suitable for basic daily use."
   },
   {
@@ -158,7 +158,7 @@
     "os": "Android 13",
     "warranty": "1 Year Warranty",
     "availability": "In Stock",
-    "image": "https://i.ibb.co/pvtXD3xT/9.png",
+    "image": "https://i.ibb.co/Y7csRVq8/9.webp",
     "description": "Smooth OxygenOS experience with fast charging support."
   },
   {
@@ -194,7 +194,7 @@
     "os": "Android 13",
     "warranty": "1 Year Warranty",
     "availability": "In Stock",
-    "image": "https://i.ibb.co/9HTQdRwb/11.jpg",
+    "image": "https://i.ibb.co/gMk5zHT7/11.jpg",
     "description": "Durable smartphone with clean Android experience."
   },
   {
@@ -212,7 +212,79 @@
     "os": "Android 13",
     "warranty": "1 Year Warranty",
     "availability": "In Stock",
-    "image": "https://i.ibb.co/8gWkrFzX/12.jpg",
+    "image": "https://i.ibb.co/fG48t9CF/12.jpg",
     "description": "Premium design with smooth display and fast charging."
+  },
+  {
+    "id": 13,
+    "name": "Samsung Galaxy A54",
+    "brand": "Samsung",
+    "price": 42000,
+    "rating": 4.6,
+    "reviews": 890,
+    "ram": "8GB",
+    "storage": "128GB",
+    "battery": "5000mAh",
+    "camera": "50MP + 12MP + 5MP",
+    "processor": "Exynos 1380",
+    "os": "Android 13",
+    "warranty": "1 Year Official Warranty",
+    "availability": "In Stock",
+    "image": "https://i.ibb.co/ynjHQvFQ/13.webp",
+    "description": "Mid-range smartphone with premium design and excellent display quality."
+  },
+  {
+    "id": 14,
+    "name": "iPhone 11",
+    "brand": "Apple",
+    "price": 105000,
+    "rating": 4.8,
+    "reviews": 1950,
+    "ram": "4GB",
+    "storage": "128GB",
+    "battery": "3240mAh",
+    "camera": "12MP + 12MP",
+    "processor": "A15 Bionic",
+    "os": "iOS 16",
+    "warranty": "1 Year International Warranty",
+    "availability": "In Stock",
+    "image": "https://i.ibb.co/WpkZsVkY/14.jpg",
+    "description": "Reliable iPhone with powerful performance and excellent camera quality."
+  },
+  {
+    "id": 15,
+    "name": "Xiaomi 13 Lite",
+    "brand": "Xiaomi",
+    "price": 38000,
+    "rating": 4.4,
+    "reviews": 640,
+    "ram": "8GB",
+    "storage": "128GB",
+    "battery": "4500mAh",
+    "camera": "50MP + 8MP + 2MP",
+    "processor": "Snapdragon 7 Gen 1",
+    "os": "Android 13",
+    "warranty": "1 Year Brand Warranty",
+    "availability": "In Stock",
+    "image": "https://i.ibb.co/PGHLrq6q/15.webp",
+    "description": "Slim and lightweight smartphone with fast performance and stylish look."
+  },
+  {
+    "id": 16,
+    "name": "Realme Narzo 60",
+    "brand": "Realme",
+    "price": 27000,
+    "rating": 4.3,
+    "reviews": 510,
+    "ram": "8GB",
+    "storage": "128GB",
+    "battery": "5000mAh",
+    "camera": "64MP + 2MP",
+    "processor": "Dimensity 6020",
+    "os": "Android 13",
+    "warranty": "1 Year Warranty",
+    "availability": "In Stock",
+    "image": "https://i.ibb.co/k2DZPVhk/16.jpg",
+    "description": "Budget-friendly 5G smartphone with strong battery life."
   }
 ]
