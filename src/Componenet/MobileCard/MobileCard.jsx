@@ -18,15 +18,19 @@ const MobileCard = ({ mobile }) => {
         </div>
         <p className="mt-2 text-gray-500">{mobile.description}</p>
         <div className="mt-2 flex justify-between items-center">
-            <p className="font-semibold">RAM : {mobile.ram}</p>
-            <p className="font-semibold">Storage : {mobile.storage}</p>
+          <p className="font-semibold">RAM : {mobile.ram}</p>
+          <p className="font-semibold">Storage : {mobile.storage}</p>
         </div>
 
-            <p className="mt-1">Battery : {mobile.battery}</p>
-            <p className="mt-1">Camera : {mobile.camera}</p>
+        <p className="mt-1">Battery : {mobile.battery}</p>
+        <p className="mt-1">Camera : {mobile.camera}</p>
 
-        <p className="bg-[#fd795e] text-white text-center mt-2 py-1 rounded-xl">{mobile.warranty}</p>
-        <button className="bg-black text-white mt-3 w-full py-3 font-bold rounded-lg cursor-pointer hover:bg-white hover:text-black hover:transition duration-400">Shop Now</button>
+        <p className="bg-[#fd795e] text-white text-center mt-2 py-1 rounded-xl">
+          {mobile.warranty}
+        </p>
+        <button className="bg-black text-white mt-3 w-full py-3 font-bold rounded-lg cursor-pointer hover:bg-white hover:text-black hover:transition duration-400">
+          Shop Now
+        </button>
       </div>
     </div>
   );
