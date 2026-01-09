@@ -1,10 +1,11 @@
 import './App.css'
+import Navbar from './Componenet/Navbar/Navbar'
 
 function App() {
 
   return (
     <>
-      <h1>Mibile-Shope</h1>
+      <Navbar></Navbar>
     </>
   )
 }
