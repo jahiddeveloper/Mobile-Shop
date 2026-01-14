@@ -47,7 +47,9 @@ const Login = () => {
           placeholder="Enter Your Password"
         />
 
-          <button className="mt-10 mx-auto w-full bg-indigo-500 text-white font-bold py-4 rounded-xl cursor-pointer hover:bg-indigo-600 hover:transition duration-400">Creat Account</button>
+        <button className="mt-10 mx-auto w-full bg-indigo-500 text-white font-bold py-4 rounded-xl cursor-pointer hover:bg-indigo-600 hover:transition duration-400">
+          Creat Account
+        </button>
       </div>
     </div>
   );

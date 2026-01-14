@@ -24,13 +24,21 @@ function App() {
         <div>
           <button
             onClick={() => setToggle(true)}
-            className={`px-5 py-3 ${toggle === true ? "bg-red-500" : ""} ${toggle === true ? "text-white" : ""} ${toggle === true ? "font-bold" : ""} rounded-l-xl cursor-pointer`}
+            className={`px-5 py-3 ${toggle === true ? "bg-red-500" : ""} ${
+              toggle === true ? "text-white" : ""
+            } ${
+              toggle === true ? "font-bold" : ""
+            } rounded-l-xl cursor-pointer`}
           >
             Availabale
           </button>
           <button
             onClick={() => setToggle(false)}
-            className={`px-5 py-3 ${toggle === false ? "bg-red-500" : ""} ${toggle === false ? "text-white" : ""} ${toggle === false ? "font-bold" : ""} rounded-r-xl cursor-pointer`}
+            className={`px-5 py-3 ${toggle === false ? "bg-red-500" : ""} ${
+              toggle === false ? "text-white" : ""
+            } ${
+              toggle === false ? "font-bold" : ""
+            } rounded-r-xl cursor-pointer`}
           >
             Selected <span>(0)</span>
           </button>
